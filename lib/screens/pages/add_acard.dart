@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddAcard extends StatefulWidget {
-  const AddAcard({Key? key}) : super(key: key);
+  const AddAcard({super.key});
 
   @override
   _AddAcardState createState() => _AddAcardState();

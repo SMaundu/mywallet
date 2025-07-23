@@ -1,6 +1,6 @@
 // Importing necessary packages and files.
 import 'package:flutter/material.dart'; // Flutter's material design package for UI components.
-import 'package:my_pocket_wallet/classes/homecontent.dart';
+import 'package:my_pocket_wallet/screens/pages/register.dart';
 
 // Splashscreen widget represents the splash screen of the app.
 class Splashscreen extends StatefulWidget {
@@ -85,7 +85,7 @@ Widget _splashButton(BuildContext context) {
       // Action to perform when the button is pressed.
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => const Homecontent()), // Navigates to the DashboardPage.
+        MaterialPageRoute(builder: (context) => const SignUpPage()), // Navigates to the Register page.
       );
     },
     child: const Text(
